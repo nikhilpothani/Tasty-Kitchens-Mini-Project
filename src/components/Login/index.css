@@ -1,0 +1,224 @@
+.login-bg-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+@media screen and (min-width: 768px) {
+  .login-bg-container {
+    display: flex;
+    flex-direction: row;
+  }
+}
+.mobile-view-login-img-container {
+  display: flex;
+  height: 40vh;
+}
+.mobile-view-login-img {
+  border-radius: 249.938px;
+  position: absolute;
+  width: 387px;
+  height: 387px;
+  left: 56px;
+  top: -38px;
+}
+.login-input-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+@media screen and (min-width: 768px) {
+  .login-input-container {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+}
+.login-desktop-logo-container {
+  display: none;
+}
+@media screen and (min-width: 768px) {
+  .login-desktop-logo-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 40px;
+  }
+  .desktop-login-logo-text {
+    font-family: 'DM Sans';
+    font-style: italic;
+    font-weight: 700;
+    font-size: 24px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: #f7931e;
+  }
+}
+@media screen and (min-width: 768px) {
+  .mobile-view-login-img-container {
+    display: none;
+  }
+}
+.login-form-container {
+  display: flex;
+  flex-direction: column;
+  margin-left: 30px;
+}
+@media screen and (min-width: 768px) {
+  .login-form-container {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+  }
+}
+@media screen and (min-width: 992px) {
+  .login-form-container {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-self: center;
+    background: #fefeff;
+    box-shadow: 0px 8px 40px rgba(7, 7, 7, 0.08);
+    border-radius: 8px;
+  }
+}
+.desktop-view-login-img-container {
+  display: none;
+}
+@media screen and (min-width: 768px) {
+  .desktop-view-login-img-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    width: 40%;
+  }
+  .desktop-view-login-img {
+    height: 100vh;
+  }
+}
+.login-form {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+}
+.login-heading {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 32px;
+  color: #0f172a;
+}
+@media screen and (min-width: 768px) {
+  .login-heading {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 80px;
+    color: #0f172a;
+    margin-top: 20px;
+    margin-bottom: 40px;
+  }
+}
+.label {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0.01em;
+  color: #475569;
+  margin-top: 24px;
+  margin-bottom: 5px;
+}
+@media screen and (min-width: 768px) {
+  .label {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0.01em;
+    color: #475569;
+  }
+}
+.input-password-container {
+  height: 40px;
+  background-color: #e2e8f0;
+  border-radius: 2px;
+  border: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  outline: none;
+}
+.input {
+  height: 40px;
+  background: #e2e8f0;
+  border-radius: 2px;
+  border: none;
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #171f46;
+  padding: 1px 20px 1px 20px;
+  outline: none;
+}
+.password-input {
+  height: 40px;
+  background: #e2e8f0;
+  border: none;
+  font-family: 'DM Sans';
+  width: 82%;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  padding: 1px 20px 1px 20px;
+  color: #171f46;
+  outline: none;
+}
+@media screen and (min-width: 768px) {
+  .password-input {
+    width: 87%;
+  }
+}
+.error-msg-text {
+  margin-top: 8px;
+  padding-top: 0px;
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  color: #ef4444;
+}
+.login-button {
+  margin-top: 24px;
+  background: #f7931e;
+  border-radius: 8px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  height: 40px;
+  margin-bottom: 40px;
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 24px;
+  color: #ffffff;
+}
+.password-visible-function {
+  cursor: pointer;
+  outline: none;
+  border: none;
+  background-color: #e2e8f0;
+  margin-right: 10px;
+}

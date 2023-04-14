@@ -1,0 +1,104 @@
+.restaurant-filter-container {
+  display: flex;
+  flex-direction: column;
+}
+.restaurant-filter-heading {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 48px;
+  color: #183b56;
+  margin-bottom: 0px;
+}
+@media screen and (min-width: 768px) {
+  .restaurant-filter-heading {
+    font-size: 32px;
+    margin-bottom: 10px;
+  }
+}
+.filter-container {
+  display: flex;
+  flex-direction: column;
+}
+@media screen and (min-width: 768px) {
+  .filter-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+.filter-description {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 24px;
+  color: #64748b;
+  margin-bottom: 10px;
+  margin-top: 0px;
+}
+@media screen and (min-width: 768px) {
+  .filter-description {
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+}
+.filter-items-container {
+  display: flex;
+  align-items: center;
+}
+.sort-logo {
+  color: #475569;
+  margin-right: 10px;
+}
+.sort-by-text {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+  color: #475569;
+  margin-right: 2px;
+}
+.sort-options-container {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+  color: #475569;
+  padding-bottom: 2px;
+  outline: none;
+  cursor: pointer;
+  border: none;
+}
+@media screen and (min-width: 768px) {
+  .sort-by-text {
+    font-size: 16px;
+  }
+  .sort-options-container {
+    font-size: 16px;
+  }
+}
+.sort-option {
+  background: #f1f5f9;
+  border-radius: 8px;
+  border: 1px solid #cbd5e1;
+  box-shadow: 0px 0px 2px rgba(40, 41, 61, 0.04),
+    0px 4px 8px rgba(96, 97, 112, 0.16);
+  border-radius: 12px;
+  width: 145px;
+  height: 40px;
+  background: #f1f5f9;
+  border-radius: 8px;
+}
+select > option {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 24px;
+  color: #475569;
+}

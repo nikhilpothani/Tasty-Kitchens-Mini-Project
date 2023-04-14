@@ -1,0 +1,153 @@
+.food-item-container {
+  display: flex;
+  width: 90%;
+  margin-left: 20px;
+  margin-bottom: 24px;
+}
+@media screen and (min-width: 768px) {
+  .food-item-container {
+    width: 45%;
+    margin-right: 20px;
+    margin-bottom: 30px;
+  }
+}
+.food-item-img {
+  width: 160px;
+  margin-right: 16px;
+  height: 120px;
+  border-radius: 8px;
+}
+@media screen and (min-width: 768px) {
+  .food-item-img {
+    width: 220px;
+    height: 160px;
+    border-radius: 8px;
+  }
+}
+.food-item-details-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.price-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.food-item-name {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.2px;
+  color: #334155;
+  margin-bottom: 6px;
+  margin-top: 0px;
+}
+.food-item-price {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  color: #334155;
+  margin-bottom: 6px;
+  margin-top: 0px;
+}
+.food-item-rating {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  margin-bottom: 6px;
+  margin-top: 0px;
+  line-height: 18px;
+  display: flex;
+  align-items: center;
+  color: #1e293b;
+}
+.star-logo {
+  font-size: 16px;
+  margin-right: 5px;
+}
+.add-button {
+  width: 42.17px;
+  height: 23.59px;
+  background-color: transparent;
+  border: 1.44828px solid #ffa412;
+  border-radius: 5.7931px;
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  color: #ffa412;
+  outline: none;
+  cursor: pointer;
+}
+@media screen and (min-width: 768px) {
+  .food-item-name {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  .food-item-price {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  .food-item-rating {
+    font-size: 15px;
+    margin-bottom: 10px;
+  }
+  .star-logo {
+    font-size: 18px;
+  }
+  .add-button {
+    width: 58px;
+    height: 32px;
+    font-size: 14px;
+  }
+}
+.quantity-control-buttons-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.control-button {
+  width: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 18px;
+  border-radius: 2.25px;
+  border: 1.5px solid #3e4c59;
+  background-color: transparent;
+  color: #3e4c59;
+  border-radius: 2px;
+  cursor: pointer;
+  outline: none;
+}
+.quantity-text {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 500;
+  margin-left: 8px;
+  margin-right: 8px;
+  font-size: 16px;
+  line-height: 24px;
+  color: #475569;
+}
+@media screen and (min-width: 768px) {
+  .control-button {
+    width: 24px;
+    height: 24px;
+    font-size: 20px;
+    padding: 11px;
+    border: 1.6px solid #3e4c59;
+  }
+  .quantity-text {
+    font-size: 18px;
+    margin-left: 12px;
+    margin-right: 12px;
+  }
+}

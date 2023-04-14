@@ -1,0 +1,180 @@
+.order-summery-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.order-summery-hr-line {
+  width: 95%;
+  border: 1px dashed #cbd2d9;
+}
+.order-total-hr-line {
+  width: 100%;
+  margin-right: 10px;
+  border: 1px dashed #cbd2d9;
+}
+.order-summery-details-container {
+  width: 95%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+@media screen and (min-width: 768px) {
+  .order-summery-details-container {
+    width: 40%;
+    align-self: flex-end;
+    margin-right: 8%;
+  }
+  .order-total-hr-line {
+    margin-right: 16px;
+  }
+}
+.order-details-container {
+  width: 95%;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+  margin-top: 10px;
+}
+@media screen and (min-width: 768px) {
+  .order-details-container {
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 30px;
+    margin-top: 20px;
+  }
+}
+.order-details-heading {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  align-self: flex-start;
+  color: #3e4c59;
+}
+.order-total-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+.order-total {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: right;
+  margin-right: 10px;
+  color: #3e4c59;
+}
+.place-order-button {
+  outline: none;
+  cursor: pointer;
+  width: 99px;
+  height: 32px;
+  background: #f7931e;
+  border-radius: 8px;
+  border: none;
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  color: #ffffff;
+}
+.Amount-payable-heading {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 24px;
+  align-self: flex-start;
+  color: #3e4c59;
+}
+.order-summery-item-heading {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  align-self: flex-start;
+  color: #3e4c59;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.order-summery-item-value {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  text-align: right;
+  margin-right: 10px;
+  margin-right: 10px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  color: #3e4c59;
+}
+.discount-color {
+  color: #32a852;
+}
+@media screen and (min-width: 768px) {
+  .Amount-payable-heading {
+    font-size: 22px;
+  }
+  .order-summery-item-value {
+    font-size: 18px;
+    margin-right: 16px;
+  }
+  .order-details-heading {
+    font-size: 24px;
+    line-height: 32px;
+  }
+  .order-summery-item-heading {
+    font-size: 18px;
+  }
+  .order-total {
+    font-size: 24px;
+    line-height: 32px;
+    margin-right: 16px;
+  }
+  .place-order-button {
+    width: 110px;
+    height: 38px;
+    font-size: 14px;
+    line-height: 16px;
+  }
+}
+.smile-emoji {
+  margin-bottom: -2px;
+}
+.discount-not-applied {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+  align-self: flex-start;
+  color: #018786;
+}
+.discount-applied {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+  align-self: flex-start;
+  color: #7cbf00;
+}
+@media screen and (min-width: 768px) {
+  .discount-not-applied {
+    font-size: 18px;
+    line-height: 32px;
+  }
+  .discount-applied {
+    font-size: 18px;
+    line-height: 32px;
+  }
+}

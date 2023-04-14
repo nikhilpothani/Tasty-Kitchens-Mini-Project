@@ -1,0 +1,56 @@
+.discount-carousel-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-items: center;
+}
+@media screen and (min-width: 768px) {
+  .discount-carousel-container {
+    height: 40vh;
+    display: flex;
+    align-items: center;
+  }
+}
+.carousel-images {
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+  background-size: cover;
+  width: 100%;
+  list-style: none;
+  padding-left: 0px;
+  display: flex;
+}
+@media screen and (min-width: 768px) {
+  .carousel-images {
+    width: 62%;
+    margin-left: 0px;
+    padding-left: 0px;
+  }
+}
+.carousel-container {
+  width: 100%;
+  align-self: center;
+}
+.each-carousal-image {
+  width: 100%;
+  height: 160px;
+  align-self: center;
+}
+@media screen and (min-width: 768px) {
+  .each-carousal-image {
+    height: 100%;
+  }
+}
+.offers-images-loader {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (min-width: 768px) {
+  .each-carousal-image {
+    width: 100%;
+  }
+}
